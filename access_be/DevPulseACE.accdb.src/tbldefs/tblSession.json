@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tblSession",
+    "Connect": ";DATABASE=rel:DevPulse_BE.accdb",
+    "SourceTableName": "tblSession",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[SessionID]"
+  }
+}

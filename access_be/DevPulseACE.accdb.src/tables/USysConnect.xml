@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <USysConnect>
+    <ID>1</ID>
+    <Drvr>ODBC Driver 18 for SQL Server</Drvr>
+    <ServerAddress>tcp:gpconsultingbb,1433</ServerAddress>
+    <DatabaseName>DevPulse</DatabaseName>
+    <AppName>DevPulse</AppName>
+  </USysConnect>
+</dataroot>

@@ -1,0 +1,26 @@
+﻿SELECT
+  StatusGroup,
+  StatusGroupLabel,
+  ProjectID,
+  ProjectName,
+  ProjectDescription,
+  ProjectNotes,
+  ProjectAreaName,
+  ProjectStatus,
+  ProjectStartDate,
+  ProjectCompletionDate,
+  StepID,
+  StepName,
+  StepTypeName,
+  StepStatus,
+  StepStartDate,
+  StepCompletionDate,
+  SessionCount,
+  RevisionTotal,
+  ResetCount
+FROM
+  vw_RptProjectSummary
+ORDER BY
+  StatusGroup,
+  ProjectID,
+  StepID;

@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "clsDbDocument",
+    "Description": "Database Documents Properties (DAO)"
+  },
+  "Items": {
+    "Databases": {
+      "SummaryInfo": {
+        "Author": "George Hepworth",
+        "Title": "DevPulse_BE"
+      }
+    }
+  }
+}

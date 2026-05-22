@@ -1,0 +1,132 @@
+﻿-------------------------------------
+Beginning Export of Source Files
+DevPulseACE.accdb
+VCS Version 4.1.2
+Full Path: D:\GroverPark\Devpulse\access_be\DevPulseACE.accdb
+Export Folder: D:\GroverPark\Devpulse\access_be\DevPulseACE.accdb.src\
+Using Fast Save
+5/22/2026 11:38:46 AM
+-------------------------------------
+Scanning for changes...
+No modified db connections found in this database.
+No modified project found in this database.
+No modified vb project found in this database.
+No modified vbe references found in this database.
+No modified vbe forms found in this database.
+No modified proj properties found in this database.
+No modified saved specs found in this database.
+No modified modules found in this database.
+No modified commandbars found in this database.
+No modified shared images found in this database.
+No modified themes found in this database.
+No modified db properties found in this database.
+No modified imex specs found in this database.
+No modified tables found in this database.
+No modified queries found in this database.
+No modified forms found in this database.
+No modified macros found in this database.
+No modified reports found in this database.
+No modified table data macros found in this database.
+No modified relations found in this database.
+No modified doc properties found in this database.
+No modified nav pane groups found in this database.
+No modified hidden attributes found in this database.
+-------------------------------------
+Exporting table data...       
+  lcl_tlkpOutputType
+    Sanitized in 0.001 seconds.
+  lcl_tlkpProjectArea
+    Sanitized in 0.001 seconds.
+  lcl_tlkpStatus
+    Sanitized in 0.001 seconds.
+  lcl_tlkpStepType
+    Sanitized in 0.001 seconds.
+  lcl_tlkpTool
+    Sanitized in 0.001 seconds.
+  tblLookupCacheConfig
+    Sanitized in 0.001 seconds.
+  tmpl_tlkpOutputType
+    Sanitized in 0.001 seconds.
+  tmpl_tlkpProjectArea
+    Sanitized in 0.001 seconds.
+  tmpl_tlkpStatus
+    Sanitized in 0.001 seconds.
+  tmpl_tlkpStepType
+    Sanitized in 0.001 seconds.
+  tmpl_tlkpTool
+    Sanitized in 0.001 seconds.
+  USysAppString
+    Sanitized in 0.002 seconds.
+  USysConnect
+    Sanitized in 0.001 seconds.
+  USysLinkedTables
+    Sanitized in 0.001 seconds.
+  USysRibbons
+    Sanitized in 0.001 seconds.
+[15]
+-------------------------------------
+Done. (1.63 seconds)
+
+--------------------------------------------------
+                PERFORMANCE REPORTS
+--------------------------------------------------
+Category                      Count     Seconds
+--------------------------------------------------
+Table Data                    15        0.73
+DB Properties                 0         0.22
+Tables                        0         0.11
+Doc Properties                0         0.06
+Forms                         0         0.05
+Modules                       0         0.04
+Queries                       0         0.04
+DB Connections                0         0.04
+Nav Pane Groups               0         0.03
+VBE References                0         0.02
+Hidden Attributes             0         0.02
+Proj Properties               0         0.01
+Relations                     0         0.01
+Themes                        0         0.01
+Project                       0         0.01
+VB Project                    0         0.01
+Table Data Macros             0         0.01
+Reports                       0         0.01
+Macros                        0         0.00
+Shared Images                 0         0.00
+IMEX Specs                    0         0.00
+CommandBars                   0         0.00
+VBE Forms                     0         0.00
+Saved Specs                   0         0.00
+--------------------------------------------------
+TOTALS:                       15        1.44
+--------------------------------------------------
+
+--------------------------------------------------
+Operations                    Count     Seconds
+--------------------------------------------------
+App.ExportXML()               15        0.36
+Convert to JSON               582       0.35
+Scan DB Objects               1         0.18
+Read File Bytes               15        0.16
+Increment Progress            129       0.14
+Clear Orphaned Files          17        0.11
+Console Updates               3         0.09
+Check for linked table        52        0.05
+Get VBA Hash                  25        0.02
+Parse JSON                    1         0.01
+Write File                    15        0.01
+Sanitize XML                  15        0.01
+Delete File                   16        0.01
+Format XML                    15        0.01
+modFileAccess.VerifyPath      30        0.00
+Read File                     16        0.00
+Parse JSON ISO Date           72        0.00
+Quick Count Files             1         0.00
+Compute SHA256                36        0.00
+Quick Count Objects           1         0.00
+Close Open Objects            1         0.00
+modFileAccess.GetUncPath      6         0.00
+--------------------------------------------------
+Other Operations                        0.12
+--------------------------------------------------
+
+

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tblAppConfig>
+    <ConfigName>AppTitle</ConfigName>
+    <ConfigValue>DevPulse</ConfigValue>
+    <ConfigDescription>Application display title</ConfigDescription>
+  </tblAppConfig>
+  <tblAppConfig>
+    <ConfigName>AppVersion</ConfigName>
+    <ConfigValue>1.0</ConfigValue>
+    <ConfigDescription>Application version</ConfigDescription>
+  </tblAppConfig>
+  <tblAppConfig>
+    <ConfigName>AvgSessionMinutes</ConfigName>
+    <ConfigValue>45</ConfigValue>
+    <ConfigDescription>Default average session length in minutes for estimates</ConfigDescription>
+  </tblAppConfig>
+</dataroot>

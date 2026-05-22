@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "FK_tblSession_Step",
+    "Attributes": 0,
+    "Table": "tblStep",
+    "ForeignTable": "tblSession",
+    "Fields": [
+      {
+        "Name": "StepID",
+        "ForeignName": "StepID"
+      }
+    ]
+  }
+}

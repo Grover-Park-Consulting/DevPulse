@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <USysRibbons>
+    <lngID>1</lngID>
+    <RibbonName>DevPulse</RibbonName>
+    <RibbonXml>&lt;customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="OnRibbonLoad"&gt;
+  &lt;ribbon startFromScratch="false"&gt;
+    &lt;tabs&gt;
+      &lt;tab id="tabDevPulse" insertBeforeMso="TabHomeAccess" label="DEVPULSE"&gt;
+
+        &lt;group id="grpNavigate" label="NAVIGATE"&gt;
+          &lt;button id="btnProjects"    size="large" label="PROJECTS"        screentip="Projects and Steps"         imageMso="NewTask"                    onAction="=Ribbon_NodeClicks(2)" /&gt;
+          &lt;button id="btnSessions"    size="large" label="SESSIONS"        screentip="Sessions"                   imageMso="AddPeoplesCalendar"         onAction="=Ribbon_NodeClicks(3)" /&gt;
+          &lt;button id="btnRptSummary"  size="large" label="PROJECT SUMMARY" screentip="Project Summary Report"     imageMso="CreateReport"               onAction="=Ribbon_NodeClicks(4)" /&gt;
+        &lt;/group&gt;
+
+        &lt;group id="grpMaintenance" label="MAINTENANCE"&gt;
+          &lt;button id="btnProjectArea" size="normal" label="Project Areas"  imageMso="ListView"                    onAction="=Ribbon_NodeClicks(10)" /&gt;
+          &lt;button id="btnStatus"      size="normal" label="Statuses"       imageMso="PictureAutoBalance"          onAction="=Ribbon_NodeClicks(11)" /&gt;
+          &lt;button id="btnStepType"    size="normal" label="Step Types"     imageMso="ViewPageBreakPreviewView"    onAction="=Ribbon_NodeClicks(12)" /&gt;
+          &lt;button id="btnTool"        size="normal" label="Tools"          imageMso="NavigationView"              onAction="=Ribbon_NodeClicks(13)" /&gt;
+          &lt;button id="btnOutputType"  size="normal" label="Output Types"   imageMso="FileServerTransferDatabase"  onAction="=Ribbon_NodeClicks(14)" /&gt;
+          &lt;button id="btnAppConfig"   size="normal" label="App Config"     imageMso="QuickPublish"                onAction="=Ribbon_NodeClicks(15)" /&gt;
+        &lt;/group&gt;
+
+        &lt;group id="grpAdmin" label="ADMIN"&gt;
+          &lt;button idMso="FileCompactAndRepairDatabase" size="large" showLabel="false" /&gt;
+          &lt;button id="btnBackup" size="large" label="BACKUP"        screentip="Backup the front-end database"  imageMso="FileBackUpSqlDatabase"      onAction="=Ribbon_NodeClicks(21)" /&gt;
+        &lt;/group&gt;
+
+        &lt;group id="grpQuit" label="QUIT"&gt;
+          &lt;button id="btnQuit"  size="large" label="QUIT DevPulse"                                             imageMso="StopLtrDown"                onAction="=Ribbon_NodeClicks(99)" /&gt;
+        &lt;/group&gt;
+
+      &lt;/tab&gt;
+    &lt;/tabs&gt;
+  &lt;/ribbon&gt;
+&lt;/customUI&gt;</RibbonXml>
+  </USysRibbons>
+</dataroot>

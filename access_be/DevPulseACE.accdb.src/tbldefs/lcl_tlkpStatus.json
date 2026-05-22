@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "lcl_tlkpStatus",
+    "Connect": ";DATABASE=D:\\GroverPark\\Devpulse\\DevPulseLookups.accdb",
+    "SourceTableName": "tmpl_tlkpStatus",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[StatusID]"
+  }
+}

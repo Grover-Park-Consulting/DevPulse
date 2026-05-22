@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tlkpProjectArea>
+    <ProjectAreaID>1</ProjectAreaID>
+    <ProjectAreaName>Access</ProjectAreaName>
+    <SortOrder>10</SortOrder>
+  </tlkpProjectArea>
+  <tlkpProjectArea>
+    <ProjectAreaID>2</ProjectAreaID>
+    <ProjectAreaName>PowerApps</ProjectAreaName>
+    <SortOrder>20</SortOrder>
+  </tlkpProjectArea>
+  <tlkpProjectArea>
+    <ProjectAreaID>3</ProjectAreaID>
+    <ProjectAreaName>SQL Server</ProjectAreaName>
+    <SortOrder>30</SortOrder>
+  </tlkpProjectArea>
+  <tlkpProjectArea>
+    <ProjectAreaID>4</ProjectAreaID>
+    <ProjectAreaName>Web</ProjectAreaName>
+    <SortOrder>40</SortOrder>
+  </tlkpProjectArea>
+  <tlkpProjectArea>
+    <ProjectAreaID>5</ProjectAreaID>
+    <ProjectAreaName>Cross-Domain</ProjectAreaName>
+    <SortOrder>50</SortOrder>
+  </tlkpProjectArea>
+  <tlkpProjectArea>
+    <ProjectAreaID>6</ProjectAreaID>
+    <ProjectAreaName>Other</ProjectAreaName>
+    <SortOrder>99</SortOrder>
+  </tlkpProjectArea>
+</dataroot>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata">
+  <lcl_tlkpOutputType>
+    <OutputTypeID>1</OutputTypeID>
+    <OutputTypeName>Schema Design</OutputTypeName>
+    <SortOrder>10</SortOrder>
+  </lcl_tlkpOutputType>
+  <lcl_tlkpOutputType>
+    <OutputTypeID>2</OutputTypeID>
+    <OutputTypeName>SQL Script</OutputTypeName>
+    <SortOrder>20</SortOrder>
+  </lcl_tlkpOutputType>
+  <lcl_tlkpOutputType>
+    <OutputTypeID>3</OutputTypeID>
+    <OutputTypeName>VBA Module</OutputTypeName>
+    <SortOrder>30</SortOrder>
+  </lcl_tlkpOutputType>
+  <lcl_tlkpOutputType>
+    <OutputTypeID>4</OutputTypeID>
+    <OutputTypeName>Form</OutputTypeName>
+    <SortOrder>40</SortOrder>
+  </lcl_tlkpOutputType>
+  <lcl_tlkpOutputType>
+    <OutputTypeID>5</OutputTypeID>
+    <OutputTypeName>Report</OutputTypeName>
+    <SortOrder>50</SortOrder>
+  </lcl_tlkpOutputType>
+  <lcl_tlkpOutputType>
+    <OutputTypeID>6</OutputTypeID>
+    <OutputTypeName>Wiki Entry</OutputTypeName>
+    <SortOrder>60</SortOrder>
+  </lcl_tlkpOutputType>
+  <lcl_tlkpOutputType>
+    <OutputTypeID>7</OutputTypeID>
+    <OutputTypeName>Documentation</OutputTypeName>
+    <SortOrder>70</SortOrder>
+  </lcl_tlkpOutputType>
+  <lcl_tlkpOutputType>
+    <OutputTypeID>8</OutputTypeID>
+    <OutputTypeName>Other</OutputTypeName>
+    <SortOrder>99</SortOrder>
+  </lcl_tlkpOutputType>
+  <lcl_tlkpOutputType>
+    <OutputTypeID>1002</OutputTypeID>
+    <OutputTypeName>test</OutputTypeName>
+    <SortOrder>100</SortOrder>
+    <InactiveDate>2026-05-15T00:00:00</InactiveDate>
+  </lcl_tlkpOutputType>
+  <lcl_tlkpOutputType>
+    <OutputTypeID>1003</OutputTypeID>
+    <OutputTypeName>work</OutputTypeName>
+    <SortOrder>110</SortOrder>
+    <InactiveDate>2026-05-15T00:00:00</InactiveDate>
+  </lcl_tlkpOutputType>
+</dataroot>

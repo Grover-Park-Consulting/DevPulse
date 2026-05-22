@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "lcl_tlkpTool",
+    "Connect": ";DATABASE=rel:DevPulseLookups.accdb",
+    "SourceTableName": "tmpl_tlkpTool",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ToolTypeID]"
+  }
+}

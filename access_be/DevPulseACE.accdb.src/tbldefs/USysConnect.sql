@@ -1,0 +1,7 @@
+﻿CREATE TABLE [USysConnect] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [Drvr] VARCHAR (50),
+  [ServerAddress] VARCHAR (50),
+  [DatabaseName] VARCHAR (50),
+  [AppName] VARCHAR (50)
+)

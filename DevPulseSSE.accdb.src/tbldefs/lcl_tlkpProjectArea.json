@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "lcl_tlkpProjectArea",
+    "Connect": ";DATABASE=rel:DevPulseLookups.accdb",
+    "SourceTableName": "tmpl_tlkpProjectArea",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ProjectAreaID]"
+  }
+}

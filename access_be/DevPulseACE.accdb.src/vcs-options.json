@@ -1,0 +1,141 @@
+﻿{
+  "Info": {
+    "AddinVersion": "4.1.2",
+    "AccessVersion": "16.0 32-bit"
+  },
+  "Options": {
+    "ExportFolder": "",
+    "ShowDebug": false,
+    "UseFastSave": true,
+    "UseMergeBuild": false,
+    "UseGitIntegration": false,
+    "SavePrintVars": true,
+    "ExportPrintSettings": {
+      "Orientation": true,
+      "PaperSize": true,
+      "Duplex": false,
+      "PrintQuality": false,
+      "DisplayFrequency": false,
+      "Collate": false,
+      "Resolution": false,
+      "DisplayFlags": false,
+      "Color": false,
+      "Copies": false,
+      "ICMMethod": false,
+      "DefaultSource": false,
+      "Scale": false,
+      "ICMIntent": false,
+      "FormName": false,
+      "PaperLength": false,
+      "DitherType": false,
+      "MediaType": false,
+      "PaperWidth": false,
+      "TTOption": false
+    },
+    "SaveQuerySQL": true,
+    "FormatSQL": true,
+    "ForceImportOriginalQuerySQL": false,
+    "SaveTableSQL": true,
+    "SplitLayoutFromVBA": false,
+    "StripPublishOption": true,
+    "SanitizeColors": 1,
+    "SanitizeLevel": 2,
+    "ExtractThemeFiles": false,
+    "TablesToExportData": {
+      "lcl_tlkpOutputType": {
+        "Format": "XML Format"
+      },
+      "lcl_tlkpProjectArea": {
+        "Format": "XML Format"
+      },
+      "lcl_tlkpStatus": {
+        "Format": "XML Format"
+      },
+      "lcl_tlkpStepType": {
+        "Format": "XML Format"
+      },
+      "lcl_tlkpTool": {
+        "Format": "XML Format"
+      },
+      "tblAuditLog": {
+        "Format": "XML Format"
+      },
+      "tblCalendarDates": {
+        "Format": "XML Format"
+      },
+      "tblDataMacroConfig": {
+        "Format": "XML Format"
+      },
+      "tblErrorDescription": {
+        "Format": "XML Format"
+      },
+      "tblFilePaths": {
+        "Format": "XML Format"
+      },
+      "tblHoliday": {
+        "Format": "XML Format"
+      },
+      "tblLongTextBackup": {
+        "Format": "XML Format"
+      },
+      "tblLookupCacheConfig": {
+        "Format": "XML Format"
+      },
+      "tblState": {
+        "Format": "XML Format"
+      },
+      "tblTableFieldTypesGPC_Code_Library": {
+        "Format": "XML Format"
+      },
+      "tblZIPCode": {
+        "Format": "XML Format"
+      },
+      "tmpl_tlkpOutputType": {
+        "Format": "XML Format"
+      },
+      "tmpl_tlkpProjectArea": {
+        "Format": "XML Format"
+      },
+      "tmpl_tlkpStatus": {
+        "Format": "XML Format"
+      },
+      "tmpl_tlkpStepType": {
+        "Format": "XML Format"
+      },
+      "tmpl_tlkpTool": {
+        "Format": "XML Format"
+      },
+      "USysApplicationLog": {
+        "Format": "XML Format"
+      },
+      "USysAppString": {
+        "Format": "XML Format"
+      },
+      "USysConnect": {
+        "Format": "XML Format"
+      },
+      "USysLinkedTables": {
+        "Format": "XML Format"
+      },
+      "USysRegInfo": {
+        "Format": "XML Format"
+      },
+      "USysRibbons": {
+        "Format": "XML Format"
+      }
+    },
+    "SchemaExports": {
+    },
+    "RunBeforeExport": "",
+    "RunAfterExport": "",
+    "RunBeforeBuild": "",
+    "RunAfterBuild": "",
+    "RunBeforeMerge": "",
+    "RunAfterMerge": "",
+    "ShowVCSLegacy": true,
+    "HashAlgorithm": "SHA256",
+    "UseShortHash": true,
+    "BreakOnError": false,
+    "PreserveRubberDuckID": false
+  }
+}

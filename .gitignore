@@ -1,0 +1,10 @@
+# Access binaries — distributed via GitHub Releases
+*.accdb
+*.laccdb
+
+# Backup files
+Backups/
+
+# Runtime logs
+Logs/
+errors*.txt

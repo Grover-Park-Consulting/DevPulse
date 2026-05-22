@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "lcl_tlkpOutputType",
+    "Connect": ";DATABASE=rel:DevPulseLookups.accdb",
+    "SourceTableName": "tmpl_tlkpOutputType",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[OutputTypeID]"
+  }
+}

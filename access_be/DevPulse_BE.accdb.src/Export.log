@@ -1,0 +1,113 @@
+﻿-------------------------------------
+Beginning Export of Source Files
+DevPulse_BE.accdb
+VCS Version 4.1.2
+Full Path: D:\GroverPark\Devpulse\access_be\DevPulse_BE.accdb
+Export Folder: D:\GroverPark\Devpulse\access_be\DevPulse_BE.accdb.src\
+Using Fast Save
+5/22/2026 11:39:02 AM
+-------------------------------------
+Scanning for changes...
+No modified db connections found in this database.
+No modified project found in this database.
+No modified vb project found in this database.
+No modified vbe references found in this database.
+No modified vbe forms found in this database.
+No modified proj properties found in this database.
+No modified saved specs found in this database.
+No modified modules found in this database.
+No modified commandbars found in this database.
+No modified shared images found in this database.
+No modified themes found in this database.
+No modified db properties found in this database.
+No modified imex specs found in this database.
+No modified tables found in this database.
+No modified queries found in this database.
+No modified forms found in this database.
+No modified macros found in this database.
+No modified reports found in this database.
+No modified table data macros found in this database.
+No modified relations found in this database.
+No modified doc properties found in this database.
+No modified nav pane groups found in this database.
+No modified hidden attributes found in this database.
+-------------------------------------
+Exporting table data...       
+  tblAppConfig
+    Sanitized in 0.001 seconds.
+  tlkpOutputType
+    Sanitized in 0.001 seconds.
+  tlkpProjectArea
+    Sanitized in 0.001 seconds.
+  tlkpStatus
+    Sanitized in 0.001 seconds.
+  tlkpStepType
+    Sanitized in 0.001 seconds.
+  tlkpTool
+    Sanitized in 0.001 seconds.
+[6]
+-------------------------------------
+Done. (1.07 seconds)
+
+--------------------------------------------------
+                PERFORMANCE REPORTS
+--------------------------------------------------
+Category                      Count     Seconds
+--------------------------------------------------
+Table Data                    6         0.39
+DB Properties                 0         0.13
+Relations                     0         0.12
+Tables                        0         0.07
+Themes                        0         0.04
+Doc Properties                0         0.03
+Nav Pane Groups               0         0.03
+VBE References                0         0.02
+DB Connections                0         0.02
+Hidden Attributes             0         0.01
+Proj Properties               0         0.01
+VB Project                    0         0.01
+Project                       0         0.01
+Table Data Macros             0         0.01
+Shared Images                 0         0.00
+IMEX Specs                    0         0.00
+Queries                       0         0.00
+VBE Forms                     0         0.00
+Reports                       0         0.00
+Modules                       0         0.00
+CommandBars                   0         0.00
+Saved Specs                   0         0.00
+Macros                        0         0.00
+Forms                         0         0.00
+--------------------------------------------------
+TOTALS:                       6         0.90
+--------------------------------------------------
+
+--------------------------------------------------
+Operations                    Count     Seconds
+--------------------------------------------------
+Convert to JSON               572       0.35
+App.ExportXML()               6         0.21
+Increment Progress            51        0.12
+Scan DB Objects               1         0.09
+Read File Bytes               6         0.07
+Console Updates               2         0.05
+Clear Orphaned Files          13        0.05
+Check for linked table        22        0.02
+Delete File                   7         0.01
+Parse JSON                    1         0.00
+Sanitize XML                  6         0.00
+Write File                    6         0.00
+Format XML                    6         0.00
+Parse JSON ISO Date           30        0.00
+Quick Count Files             1         0.00
+modFileAccess.VerifyPath      12        0.00
+Compute SHA256                28        0.00
+Read File                     7         0.00
+Quick Count Objects           1         0.00
+Close Open Objects            1         0.00
+modFileAccess.GetUncPath      2         0.00
+--------------------------------------------------
+Other Operations                        0.06
+--------------------------------------------------
+
+

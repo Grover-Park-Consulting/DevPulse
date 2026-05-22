@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "FK_tblSessionTool_Session",
+    "Attributes": 0,
+    "Table": "tblSession",
+    "ForeignTable": "tblSessionTool",
+    "Fields": [
+      {
+        "Name": "SessionID",
+        "ForeignName": "SessionID"
+      }
+    ]
+  }
+}

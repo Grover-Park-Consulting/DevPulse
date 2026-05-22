@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata">
+  <lcl_tlkpStatus>
+    <StatusID>1</StatusID>
+    <StatusName>Planning</StatusName>
+    <SortOrder>10</SortOrder>
+  </lcl_tlkpStatus>
+  <lcl_tlkpStatus>
+    <StatusID>2</StatusID>
+    <StatusName>In Progress</StatusName>
+    <SortOrder>20</SortOrder>
+  </lcl_tlkpStatus>
+  <lcl_tlkpStatus>
+    <StatusID>3</StatusID>
+    <StatusName>On Hold</StatusName>
+    <SortOrder>30</SortOrder>
+  </lcl_tlkpStatus>
+  <lcl_tlkpStatus>
+    <StatusID>4</StatusID>
+    <StatusName>Complete</StatusName>
+    <SortOrder>40</SortOrder>
+  </lcl_tlkpStatus>
+  <lcl_tlkpStatus>
+    <StatusID>5</StatusID>
+    <StatusName>Cancelled</StatusName>
+    <SortOrder>50</SortOrder>
+  </lcl_tlkpStatus>
+  <lcl_tlkpStatus>
+    <StatusID>1002</StatusID>
+    <StatusName>test</StatusName>
+    <SortOrder>78</SortOrder>
+    <InactiveDate>2026-05-18T00:00:00</InactiveDate>
+  </lcl_tlkpStatus>
+</dataroot>

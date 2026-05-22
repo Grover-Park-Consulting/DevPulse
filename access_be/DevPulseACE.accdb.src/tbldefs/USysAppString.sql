@@ -1,0 +1,5 @@
+﻿CREATE TABLE [USysAppString] (
+  [AppStringID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [AppStringName] VARCHAR (255),
+  [AppStringValue] VARCHAR (255)
+)

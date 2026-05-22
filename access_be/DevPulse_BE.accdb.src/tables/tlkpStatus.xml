@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tlkpStatus>
+    <StatusID>1</StatusID>
+    <StatusName>Planning</StatusName>
+    <SortOrder>10</SortOrder>
+  </tlkpStatus>
+  <tlkpStatus>
+    <StatusID>2</StatusID>
+    <StatusName>In Progress</StatusName>
+    <SortOrder>20</SortOrder>
+  </tlkpStatus>
+  <tlkpStatus>
+    <StatusID>3</StatusID>
+    <StatusName>On Hold</StatusName>
+    <SortOrder>30</SortOrder>
+  </tlkpStatus>
+  <tlkpStatus>
+    <StatusID>4</StatusID>
+    <StatusName>Complete</StatusName>
+    <SortOrder>40</SortOrder>
+  </tlkpStatus>
+  <tlkpStatus>
+    <StatusID>5</StatusID>
+    <StatusName>Cancelled</StatusName>
+    <SortOrder>50</SortOrder>
+  </tlkpStatus>
+</dataroot>

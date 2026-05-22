@@ -1,0 +1,215 @@
+﻿{
+  "Info": {
+    "Class": "clsVCSIndex",
+    "Description": "Version Control System Index"
+  },
+  "Items": {
+    "MergeBuildDate": null,
+    "FullBuildDate": null,
+    "ExportDate": "2026-05-22T18:39:03.000Z",
+    "FullExportDate": "2026-05-21T21:59:40.000Z",
+    "OptionsHash": "2dc243f",
+    "LastMergedCommit": "",
+    "Components": {
+      "DB Connections": {
+        "db-connection.json": {
+        }
+      },
+      "DB Properties": {
+        "dbs-properties.json": {
+          "FileHash": "ab95a98",
+          "ExportDate": "2026-05-21T21:59:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "52b2e0f"
+        }
+      },
+      "Doc Properties": {
+        "documents.json": {
+          "FileHash": "2f345c8",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7eb3f21"
+        }
+      },
+      "Hidden Attributes": {
+        "hidden-attributes.json": {
+        }
+      },
+      "Nav Pane Groups": {
+        "nav-pane-groups.json": {
+          "FileHash": "8b001dd",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c7ae9b4"
+        }
+      },
+      "Proj Properties": {
+        "proj-properties.json": {
+        }
+      },
+      "Project": {
+        "project.json": {
+          "FileHash": "9fe41ad",
+          "ExportDate": "2026-05-21T21:59:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bd05fa2"
+        }
+      },
+      "Relations": {
+        "FK_tblOutput_OutputType.json": {
+          "FileHash": "9664997",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "75911ee"
+        },
+        "FK_tblOutput_Step.json": {
+          "FileHash": "0524881",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "31b1879"
+        },
+        "FK_tblProject_Area.json": {
+          "FileHash": "cd47c60",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e379640"
+        },
+        "FK_tblProject_Status.json": {
+          "FileHash": "8ace973",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "272bfa5"
+        },
+        "FK_tblSession_Step.json": {
+          "FileHash": "7541df0",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6e25210"
+        },
+        "FK_tblSessionTool_Session.json": {
+          "FileHash": "c0dbe00",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d6f2a61"
+        },
+        "FK_tblSessionTool_Tool.json": {
+          "FileHash": "4f9c81d",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f12fec9"
+        },
+        "FK_tblStep_Project.json": {
+          "FileHash": "5d8f283",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "954c5ad"
+        },
+        "FK_tblStep_Status.json": {
+          "FileHash": "2c13242",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "194146f"
+        },
+        "FK_tblStep_StepType.json": {
+          "FileHash": "01364cb",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "06cd1dc"
+        }
+      },
+      "Tables": {
+        "tblAppConfig.xml": {
+          "FileHash": "2b744db",
+          "ExportDate": "2026-05-21T21:59:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "89794b0"
+        },
+        "tblOutput.xml": {
+          "FileHash": "32e02f5",
+          "ExportDate": "2026-05-21T21:59:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "48a1f3c"
+        },
+        "tblProject.xml": {
+          "FileHash": "7cb1176",
+          "ExportDate": "2026-05-21T21:59:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bfbb5b1"
+        },
+        "tblSession.xml": {
+          "FileHash": "24bd0b6",
+          "ExportDate": "2026-05-21T21:59:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5d99541"
+        },
+        "tblSessionTool.xml": {
+          "FileHash": "b00eabc",
+          "ExportDate": "2026-05-21T21:59:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9a821c8"
+        },
+        "tblStep.xml": {
+          "FileHash": "87881b7",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4c7b0c3"
+        },
+        "tlkpOutputType.xml": {
+          "FileHash": "43039b7",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ca8bf21"
+        },
+        "tlkpProjectArea.xml": {
+          "FileHash": "b2b2bd7",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a6fdf57"
+        },
+        "tlkpStatus.xml": {
+          "FileHash": "6d5f7d6",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f4ae3f1"
+        },
+        "tlkpStepType.xml": {
+          "FileHash": "3154216",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "32c4e51"
+        },
+        "tlkpTool.xml": {
+          "FileHash": "2898244",
+          "ExportDate": "2026-05-21T21:59:40.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "80eaca2"
+        }
+      },
+      "Themes": {
+        "Office 2013 - 2022 Theme.thmx": {
+          "FileHash": "2a0523e",
+          "OtherHash": "445a7a3",
+          "ExportDate": "2026-05-21T21:59:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7697659"
+        }
+      },
+      "VB Project": {
+        "vbe-project.json": {
+          "FileHash": "1387f88",
+          "ExportDate": "2026-05-21T21:59:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "caf11d3"
+        }
+      },
+      "VBE References": {
+        "vbe-references.json": {
+          "FileHash": "c8d14f7",
+          "ExportDate": "2026-05-21T21:59:39.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6f578f7"
+        }
+      }
+    }
+  }
+}

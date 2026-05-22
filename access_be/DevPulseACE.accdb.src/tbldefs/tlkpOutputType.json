@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tlkpOutputType",
+    "Connect": ";DATABASE=rel:DevPulse_BE.accdb",
+    "SourceTableName": "tlkpOutputType",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[OutputTypeID]"
+  }
+}

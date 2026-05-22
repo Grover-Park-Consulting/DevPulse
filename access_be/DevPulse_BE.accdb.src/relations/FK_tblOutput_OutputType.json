@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "FK_tblOutput_OutputType",
+    "Attributes": 0,
+    "Table": "tlkpOutputType",
+    "ForeignTable": "tblOutput",
+    "Fields": [
+      {
+        "Name": "OutputTypeID",
+        "ForeignName": "OutputTypeID"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tlkpTool>
+    <ToolTypeID>1002</ToolTypeID>
+    <ToolTypeName>Claude Code</ToolTypeName>
+    <SortOrder>10</SortOrder>
+  </tlkpTool>
+  <tlkpTool>
+    <ToolTypeID>1</ToolTypeID>
+    <ToolTypeName>Access Explorer MCP</ToolTypeName>
+    <SortOrder>20</SortOrder>
+  </tlkpTool>
+  <tlkpTool>
+    <ToolTypeID>2</ToolTypeID>
+    <ToolTypeName>SQL MCP</ToolTypeName>
+    <SortOrder>30</SortOrder>
+  </tlkpTool>
+  <tlkpTool>
+    <ToolTypeID>3</ToolTypeID>
+    <ToolTypeName>Claude Chat</ToolTypeName>
+    <SortOrder>40</SortOrder>
+  </tlkpTool>
+  <tlkpTool>
+    <ToolTypeID>4</ToolTypeID>
+    <ToolTypeName>PowerShell</ToolTypeName>
+    <SortOrder>50</SortOrder>
+  </tlkpTool>
+  <tlkpTool>
+    <ToolTypeID>5</ToolTypeID>
+    <ToolTypeName>VSCode</ToolTypeName>
+    <SortOrder>60</SortOrder>
+  </tlkpTool>
+  <tlkpTool>
+    <ToolTypeID>1003</ToolTypeID>
+    <ToolTypeName>Access</ToolTypeName>
+    <SortOrder>70</SortOrder>
+  </tlkpTool>
+  <tlkpTool>
+    <ToolTypeID>6</ToolTypeID>
+    <ToolTypeName>Other</ToolTypeName>
+    <SortOrder>99</SortOrder>
+  </tlkpTool>
+</dataroot>

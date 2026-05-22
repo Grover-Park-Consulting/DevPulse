@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tlkpStatus",
+    "Connect": ";DATABASE=rel:DevPulse_BE.accdb",
+    "SourceTableName": "tlkpStatus",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[StatusID]"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tblAppConfig",
+    "Connect": ";DATABASE=rel:DevPulse_BE.accdb",
+    "SourceTableName": "tblAppConfig",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[ConfigName]"
+  }
+}
