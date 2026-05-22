@@ -39,6 +39,8 @@ Early in the build, the instinct was to move fast — sketch an idea, start codi
 
 Working with Claude Code changed that instinct. The AI compounds with clear requirements: a well-defined task produces better code faster than a vague one. Context resets — when a conversation window fills and work must resume fresh — punish underspecified work because everything undocumented has to be reconstructed. The session-close protocol was not bureaucracy; it was the mechanism that made the next session possible without losing momentum.
 
+An unanticipated, but highly appreciated, benefit of our more disciplined approach was that towards the end, we simply didn't see the dreaded "Out of Context" warning during most sessions. We were focused, on task, with clear goals and more efficient use of our resources. 
+
 By the end of the build, we were writing task descriptions before writing code, capturing decisions as they were made, and using the revision cycle data to honestly assess where the AI added friction and where it saved it.
 
 That is the Citizen approach: working in concert with a team, even when that team is one human and one AI.
