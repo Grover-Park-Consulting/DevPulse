@@ -35,11 +35,11 @@ What was built, what was tested, what passed, what is next — written to persis
 
 The most honest observation from building DevPulse: the discipline AI-assisted development requires made us better developers.
 
-Early in the build, the instinct was to move fast — sketch an idea, start coding, adjust as we went. That is the Cowboy approach. It works when you are the only one who needs to understand the code and mistakes are cheap to fix.
+Early in the build, the human developer's instinct was to move fast — sketch an idea, start coding, adjust as we went. That is the Cowboy approach. It worked when he was the only one who needed to understand the code and mistakes were cheap to fix. 
 
-Working with Claude Code changed that instinct. The AI compounds with clear requirements: a well-defined task produces better code faster than a vague one. Context resets — when a conversation window fills and work must resume fresh — punish underspecified work because everything undocumented has to be reconstructed. The session-close protocol was not bureaucracy; it was the mechanism that made the next session possible without losing momentum.
+Working with Claude Code changed that instinct. The AI benefit compounds with clear requirements: a well-defined task produces better code faster than a vague one. Context resets — when a conversation window fills and work must resume fresh — punish underspecified work because everything undocumented has to be reconstructed. The session-close protocol was not bureaucracy; it was the mechanism that made the next session possible without losing momentum and without exhausting context.
 
-An unanticipated, but highly appreciated, benefit of our more disciplined approach was that towards the end, we simply didn't see the dreaded "Out of Context" warning during most sessions. We were focused, on task, with clear goals and more efficient use of our resources. 
+An unanticipated, but highly appreciated, benefit of our more disciplined approach was that towards the end of active development, we simply didn't see the dreaded "Out of Context" warning during most sessions. We were focused, on task, with clear goals and more efficient use of our resources. It felt more relaxed even though we got more  work done.
 
 By the end of the build, we were writing task descriptions before writing code, capturing decisions as they were made, and using the revision cycle data to honestly assess where the AI added friction and where it saved it.
 
