@@ -57,9 +57,21 @@ Download the `.accdb` files from the [Releases](../../releases) page — binary 
 2. Create a new `DevPulse` database on your SQL Server instance, then run `sql/DevPulse_Setup_SQLServer.sql` against it. The script creates all tables, views, seed data, and the sample build history.
    - **SSMS:** Create the database via Object Explorer, open the script, select `DevPulse` as the target, and click **Execute**.
    - **Command line:** `sqlcmd -S <server> -Q "CREATE DATABASE DevPulse"` then `sqlcmd -S <server> -d DevPulse -i DevPulse_Setup_SQLServer.sql`
-3. Open `DevPulseSSE.accdb` in Access.
-4. The connection setup dialog appears on first run. Enter your server address (e.g. `.\SQLEXPRESS` for a local Express instance), username, and password, then click **Connect**.
-5. DevPulse opens to the dashboard, pre-loaded with the sample build history.
+3. Create a SQL Server login for DevPulse. DevPulse uses SQL Server Authentication — not Windows Authentication. Choose any login name and password you like; the example below uses `DevPulseUser`. Run this against your instance:
+
+   ```sql
+   CREATE LOGIN DevPulseUser WITH PASSWORD = 'YourPassword';
+   USE DevPulse;
+   CREATE USER DevPulseUser FOR LOGIN DevPulseUser;
+   ALTER ROLE db_datareader ADD MEMBER DevPulseUser;
+   ALTER ROLE db_datawriter ADD MEMBER DevPulseUser;
+   ```
+
+   > **SQL Server Express note:** If you see a login failure, your instance may be configured for Windows Authentication only. In SSMS, right-click the server → **Properties** → **Security** → select **SQL Server and Windows Authentication mode**, then restart the SQL Server service.
+
+4. Open `DevPulseSSE.accdb` in Access.
+5. The connection setup dialog appears on first run. Enter your server address (e.g. `.\SQLEXPRESS` for a local Express instance), the login name and password you created in step 3, then click **Connect**.
+6. DevPulse opens to the dashboard, pre-loaded with the sample build history.
 
 > **Starting fresh?** Use the **Admin → Clear Data** button on the ribbon when you are ready to remove the sample data and track your own projects.
 
