@@ -14,13 +14,19 @@ DevPulse tracks AI-assisted development sessions at three levels:
 - **Step** — a discrete task within the project (design, build, test, refactor)
 - **Session** — a working session on a step, recording start/end time, revision cycles, context resets, and tools used
 
-#revision cycles#
+### Revision Cycles — the Magic Number in DevPulse
 
 The headline metric is **revision cycles** — how many times something had to be tried again before it worked. That number, aggregated across steps and projects, is an honest measure of how much back-and-forth AI-assisted development actually takes.
 
 ## The Meta Angle
 
 The sample data included with DevPulse is the real build record of DevPulse itself — 21 tasks, 25 sessions, and the revision cycle counts from the original build. The app was tracked in itself while being built. Task 16 (Ribbon XML and startup relink) took 11 revision cycles. Most tasks took 0–3. The data is honest.
+
+What does revision cycles tell us? It's the answer to a complaint you hear all the time. "AI makes mistakes." The DevPulse project revealed that to be true. It also revealed that it doesn't matter nearly as much as you might think.
+
+Task 16 was building the Ribbon XML from the human developer's description. That's something the AI, Claude Code in this case, didn't know much about. Moreover, documentation on the Office Ribbon is sparse. That led to a rapid cycle of trial and error in which Claude Code rapidly found and discarded 10 ways that didn't work, mostly without intervention by the human PM. That amounts to a heuristic problem solving approach implemented by Claude Code, and that's something you hear a lot less about.
+
+DevPulse surfaced that capability over and over again. Sure, an AI makes mistakes, but it also knows how to recover from them.
 
 ## Two Backend Options
 
