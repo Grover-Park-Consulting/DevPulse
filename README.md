@@ -14,6 +14,8 @@ DevPulse tracks AI-assisted development sessions at three levels:
 - **Step** — a discrete task within the project (design, build, test, refactor)
 - **Session** — a working session on a step, recording start/end time, revision cycles, context resets, and tools used
 
+#revision cycles#
+
 The headline metric is **revision cycles** — how many times something had to be tried again before it worked. That number, aggregated across steps and projects, is an honest measure of how much back-and-forth AI-assisted development actually takes.
 
 ## The Meta Angle
