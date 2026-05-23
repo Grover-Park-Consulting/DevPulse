@@ -32,22 +32,48 @@ DevPulse surfaced that capability over and over again. Sure, an AI makes mistake
 
 DevPulse ships with two front ends, each paired with a different backend:
 
-| Edition | Backend | Best for |
-|---------|---------|----------|
-| **SQL Server Express** | SQL Server (free) | Teams, shared databases, distributed access |
-| **Access BE** | Access .accdb | Single-user, fully self-contained, no server required |
+| Edition                | Backend           | Best for                                              |
+| ---------------------- | ----------------- | ----------------------------------------------------- |
+| **SQL Server Express** | SQL Server (free) | Teams, shared databases, distributed access           |
+| **Access BE**          | Access .accdb     | Single-user, fully self-contained, no server required |
 
 Both editions include the same sample data and functionality. The SQL Server edition is the primary offering.
 
 ## Getting Started
 
-> Full setup instructions are in progress and will be added here shortly.
+### Prerequisites
 
-**SQL Server edition:** Run `sql/DevPulse_Setup_SQLServer.sql` against a SQL Server or SQL Server Express instance, then open `DevPulseSSE.accdb` and enter your connection details when prompted.
+Both editions require **Microsoft Access 2016 or later** (including Microsoft 365).
 
-**Access BE edition:** Open `DevPulseACE.accdb` — it connects automatically to the included `DevPulse_BE.accdb`.
+Download the `.accdb` files from the [Releases](../../releases) page — binary files are not stored in the repository.
 
-Both `.accdb` files are distributed as GitHub Releases — see the [Releases](../../releases) page.
+---
+
+### SQL Server Edition
+
+**Additional requirement:** A SQL Server or [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) instance. SQL Server Express is free and sufficient for personal use.
+
+1. Download `DevPulseSSE.accdb` from the [Releases](../../releases) page.
+2. Create a new `DevPulse` database on your SQL Server instance, then run `sql/DevPulse_Setup_SQLServer.sql` against it. The script creates all tables, views, seed data, and the sample build history.
+   - **SSMS:** Create the database via Object Explorer, open the script, select `DevPulse` as the target, and click **Execute**.
+   - **Command line:** `sqlcmd -S <server> -Q "CREATE DATABASE DevPulse"` then `sqlcmd -S <server> -d DevPulse -i DevPulse_Setup_SQLServer.sql`
+3. Open `DevPulseSSE.accdb` in Access.
+4. The connection setup dialog appears on first run. Enter your server address (e.g. `.\SQLEXPRESS` for a local Express instance), username, and password, then click **Connect**.
+5. DevPulse opens to the dashboard, pre-loaded with the sample build history.
+
+> **Starting fresh?** Use the **Admin → Clear Data** button on the ribbon when you are ready to remove the sample data and track your own projects.
+
+---
+
+### Access BE Edition
+
+No SQL Server required.
+
+1. Download `DevPulseACE.accdb` and `DevPulse_BE.accdb` from the [Releases](../../releases) page.
+2. Keep both files in the same folder.
+3. Open `DevPulseACE.accdb`. DevPulse connects automatically and opens to the dashboard.
+
+> **Starting fresh?** Use the **Admin → Clear Data** button on the ribbon when you are ready to remove the sample data and track your own projects.
 
 ## How It Was Built
 
