@@ -2,10 +2,10 @@
 Beginning Export of Source Files
 DevPulseACE.accdb
 VCS Version 4.1.2
-Full Path: D:\GroverPark\Devpulse\access_be\DevPulseACE.accdb
-Export Folder: D:\GroverPark\Devpulse\access_be\DevPulseACE.accdb.src\
+Full Path: D:\GroverPark\Devpulse\access_ace\DevPulseACE.accdb
+Export Folder: D:\GroverPark\Devpulse\access_ace\DevPulseACE.accdb.src\
 Using Fast Save
-5/22/2026 11:38:46 AM
+5/24/2026 2:56:46 PM
 -------------------------------------
 Scanning for changes...
 No modified db connections found in this database.
@@ -22,8 +22,6 @@ No modified themes found in this database.
 No modified db properties found in this database.
 No modified imex specs found in this database.
 No modified tables found in this database.
-No modified queries found in this database.
-No modified forms found in this database.
 No modified macros found in this database.
 No modified reports found in this database.
 No modified table data macros found in this database.
@@ -32,9 +30,20 @@ No modified doc properties found in this database.
 No modified nav pane groups found in this database.
 No modified hidden attributes found in this database.
 -------------------------------------
+Exporting queries...          
+  qrySession
+    Sanitized in 0.004 seconds.
+  qrySession (SQL)
+[1]
+-------------------------------------
+Exporting forms...            
+  frmSession
+    Sanitized in 0.010 seconds.
+[1]
+-------------------------------------
 Exporting table data...       
   lcl_tlkpOutputType
-    Sanitized in 0.001 seconds.
+    Sanitized in 0.002 seconds.
   lcl_tlkpProjectArea
     Sanitized in 0.001 seconds.
   lcl_tlkpStatus
@@ -65,7 +74,7 @@ Exporting table data...
     Sanitized in 0.001 seconds.
 [15]
 -------------------------------------
-Done. (1.63 seconds)
+Done. (2.4 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
@@ -73,60 +82,68 @@ Done. (1.63 seconds)
 Category                      Count     Seconds
 --------------------------------------------------
 Table Data                    15        0.73
+Forms                         1         0.49
 DB Properties                 0         0.22
-Tables                        0         0.11
+Queries                       1         0.15
+Tables                        0         0.13
 Doc Properties                0         0.06
-Forms                         0         0.05
-Modules                       0         0.04
-Queries                       0         0.04
+Modules                       0         0.05
 DB Connections                0         0.04
-Nav Pane Groups               0         0.03
+Nav Pane Groups               0         0.04
+CommandBars                   0         0.03
 VBE References                0         0.02
 Hidden Attributes             0         0.02
 Proj Properties               0         0.01
-Relations                     0         0.01
 Themes                        0         0.01
-Project                       0         0.01
+Relations                     0         0.01
 VB Project                    0         0.01
+Project                       0         0.01
 Table Data Macros             0         0.01
 Reports                       0         0.01
-Macros                        0         0.00
+Macros                        0         0.01
 Shared Images                 0         0.00
 IMEX Specs                    0         0.00
-CommandBars                   0         0.00
 VBE Forms                     0         0.00
 Saved Specs                   0         0.00
 --------------------------------------------------
-TOTALS:                       15        1.44
+TOTALS:                       17        2.04
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
-App.ExportXML()               15        0.36
-Convert to JSON               582       0.35
-Scan DB Objects               1         0.18
-Read File Bytes               15        0.16
-Increment Progress            129       0.14
-Clear Orphaned Files          17        0.11
-Console Updates               3         0.09
-Check for linked table        52        0.05
-Get VBA Hash                  25        0.02
+App.ExportXML()               15        0.38
+Convert to JSON               616       0.35
+Scan DB Objects               1         0.24
+Read File Bytes               17        0.18
+Increment Progress            133       0.18
+Clear Orphaned Files          17        0.12
+Console Updates               4         0.11
+Quick Count Files             1         0.10
+Check for linked table        52        0.04
+App.SaveAsText()              2         0.04
+Delete File                   20        0.02
+Format SQL                    1         0.02
+Sanitize File                 2         0.01
 Parse JSON                    1         0.01
-Write File                    15        0.01
+Get VBA Hash                  25        0.01
+Write File                    18        0.01
 Sanitize XML                  15        0.01
-Delete File                   16        0.01
 Format XML                    15        0.01
-modFileAccess.VerifyPath      30        0.00
-Read File                     16        0.00
-Parse JSON ISO Date           72        0.00
-Quick Count Files             1         0.00
-Compute SHA256                36        0.00
+modFileAccess.VerifyPath      35        0.00
+Read File                     18        0.00
 Quick Count Objects           1         0.00
+Get File Property Hash        4         0.00
+Compute SHA256                44        0.00
+Parse JSON ISO Date           72        0.00
 Close Open Objects            1         0.00
+Read File DevMode             1         0.00
+Save Query SQL                1         0.00
+Get Modified Date             4         0.00
 modFileAccess.GetUncPath      6         0.00
+Sanitize Code Lines           1         0.00
 --------------------------------------------------
-Other Operations                        0.12
+Other Operations                        0.51
 --------------------------------------------------
 
 
