@@ -13,16 +13,16 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =18960
+    Width =18720
     DatasheetFontHeight =11
-    ItemSuffix =33
-    Left =9360
-    Top =3216
-    Right =28080
-    Bottom =14412
+    ItemSuffix =38
+    Left =13476
+    Top =1944
+    Right =25716
+    Bottom =14124
     OrderBy ="[qrySession].[SessionDate]"
     RecSrcDt = Begin
-        0x4974469daf89e640
+        0x1b20e6afd18ae640
     End
     RecordSource ="qrySession"
     Caption ="Sessions"
@@ -173,6 +173,7 @@ Begin Form
                         "rojectName FROM tblProject ORDER BY 2"
                     ColumnWidths ="0;2880"
                     AfterUpdate ="[Event Procedure]"
+                    DefaultValue ="-1"
                     OnGotFocus ="[Event Procedure]"
                     OnLostFocus ="[Event Procedure]"
 
@@ -215,6 +216,7 @@ Begin Form
                         "ars!lngProjectID=0 OR s.ProjectID=TempVars!lngProjectID) ORDER BY 1"
                     ColumnWidths ="0;2880"
                     AfterUpdate ="[Event Procedure]"
+                    DefaultValue ="-1"
                     OnGotFocus ="[Event Procedure]"
                     OnLostFocus ="[Event Procedure]"
 
@@ -244,7 +246,7 @@ Begin Form
                     OverlapFlags =85
                     Left =360
                     Top =630
-                    Width =1884
+                    Width =1620
                     Height =340
                     FontSize =14
                     FontWeight =700
@@ -252,42 +254,42 @@ Begin Form
                     Caption ="Date"
                     LayoutCachedLeft =360
                     LayoutCachedTop =630
-                    LayoutCachedWidth =2244
+                    LayoutCachedWidth =1980
                     LayoutCachedHeight =970
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =2295
+                    Left =2070
                     Top =630
-                    Width =1524
+                    Width =1260
                     Height =340
                     FontSize =14
                     FontWeight =700
                     Name ="lblHdrStart"
                     Caption ="Start"
-                    LayoutCachedLeft =2295
+                    LayoutCachedLeft =2070
                     LayoutCachedTop =630
-                    LayoutCachedWidth =3819
+                    LayoutCachedWidth =3330
                     LayoutCachedHeight =970
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =3870
+                    Left =3420
                     Top =630
-                    Width =1524
+                    Width =1260
                     Height =340
                     FontSize =14
                     FontWeight =700
                     Name ="lblHdrEnd"
                     Caption ="End"
-                    LayoutCachedLeft =3870
+                    LayoutCachedLeft =3420
                     LayoutCachedTop =630
-                    LayoutCachedWidth =5394
+                    LayoutCachedWidth =4680
                     LayoutCachedHeight =970
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =5445
+                    Left =4770
                     Top =630
                     Width =900
                     Height =340
@@ -295,14 +297,14 @@ Begin Form
                     FontWeight =700
                     Name ="lblHdrReset"
                     Caption ="Reset"
-                    LayoutCachedLeft =5445
+                    LayoutCachedLeft =4770
                     LayoutCachedTop =630
-                    LayoutCachedWidth =6345
+                    LayoutCachedWidth =5670
                     LayoutCachedHeight =970
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =6396
+                    Left =5760
                     Top =630
                     Width =1350
                     Height =340
@@ -310,14 +312,14 @@ Begin Form
                     FontWeight =700
                     Name ="lblHdrRevisions"
                     Caption ="Revisions"
-                    LayoutCachedLeft =6396
+                    LayoutCachedLeft =5760
                     LayoutCachedTop =630
-                    LayoutCachedWidth =7746
+                    LayoutCachedWidth =7110
                     LayoutCachedHeight =970
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =7797
+                    Left =7200
                     Top =630
                     Width =11160
                     Height =340
@@ -325,9 +327,9 @@ Begin Form
                     FontWeight =700
                     Name ="lblHdrNotes"
                     Caption ="Notes"
-                    LayoutCachedLeft =7797
+                    LayoutCachedLeft =7200
                     LayoutCachedTop =630
-                    LayoutCachedWidth =18957
+                    LayoutCachedWidth =18360
                     LayoutCachedHeight =970
                 End
             End
@@ -344,7 +346,7 @@ Begin Form
                     IMESentenceMode =3
                     Left =360
                     Top =30
-                    Width =1884
+                    Width =1620
                     Height =450
                     FontSize =14
                     Name ="txtSessionDate"
@@ -363,7 +365,7 @@ Begin Form
 
                     LayoutCachedLeft =360
                     LayoutCachedTop =30
-                    LayoutCachedWidth =2244
+                    LayoutCachedWidth =1980
                     LayoutCachedHeight =480
                     ConditionalFormat14 = Begin
                         0x01000100000001000000000000000100000000000000b8dcff002f0000005b00 ,
@@ -376,14 +378,16 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =2295
+                    Left =2070
                     Top =30
-                    Width =1524
+                    Width =1260
                     Height =450
                     FontSize =14
                     TabIndex =1
                     Name ="txtSessionStartTime"
                     ControlSource ="SessionStartTime"
+                    Format ="Short Time"
+                    InputMask ="99:00;0;_"
                     OnGotFocus ="[Event Procedure]"
                     OnLostFocus ="[Event Procedure]"
                     ConditionalFormat = Begin
@@ -396,9 +400,9 @@ Begin Form
                         0x0000
                     End
 
-                    LayoutCachedLeft =2295
+                    LayoutCachedLeft =2070
                     LayoutCachedTop =30
-                    LayoutCachedWidth =3819
+                    LayoutCachedWidth =3330
                     LayoutCachedHeight =480
                     ConditionalFormat14 = Begin
                         0x0100010000000100000000000000010000000000000077c0d4002f0000005b00 ,
@@ -411,14 +415,16 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =3870
+                    Left =3420
                     Top =30
-                    Width =1524
+                    Width =1260
                     Height =450
                     FontSize =14
                     TabIndex =2
                     Name ="txtSessionEndTime"
                     ControlSource ="SessionEndTime"
+                    Format ="Short Time"
+                    InputMask ="99:00;0;_"
                     OnGotFocus ="[Event Procedure]"
                     OnLostFocus ="[Event Procedure]"
                     ConditionalFormat = Begin
@@ -431,9 +437,9 @@ Begin Form
                         0x2900000000000000
                     End
 
-                    LayoutCachedLeft =3870
+                    LayoutCachedLeft =3420
                     LayoutCachedTop =30
-                    LayoutCachedWidth =5394
+                    LayoutCachedWidth =4680
                     LayoutCachedHeight =480
                     ConditionalFormat14 = Begin
                         0x01000100000001000000000000000100000000000000b8dcff00310000005b00 ,
@@ -445,7 +451,7 @@ Begin Form
                 End
                 Begin CheckBox
                     OverlapFlags =85
-                    Left =5445
+                    Left =4770
                     Top =30
                     Width =900
                     Height =450
@@ -455,15 +461,15 @@ Begin Form
                     OnGotFocus ="[Event Procedure]"
                     OnLostFocus ="[Event Procedure]"
 
-                    LayoutCachedLeft =5445
+                    LayoutCachedLeft =4770
                     LayoutCachedTop =30
-                    LayoutCachedWidth =6345
+                    LayoutCachedWidth =5670
                     LayoutCachedHeight =480
                 End
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =6396
+                    Left =5760
                     Top =30
                     Width =1350
                     Height =450
@@ -483,9 +489,9 @@ Begin Form
                         0x0000
                     End
 
-                    LayoutCachedLeft =6396
+                    LayoutCachedLeft =5760
                     LayoutCachedTop =30
-                    LayoutCachedWidth =7746
+                    LayoutCachedWidth =7110
                     LayoutCachedHeight =480
                     ConditionalFormat14 = Begin
                         0x01000100000001000000000000000100000000000000b8dcff002f0000005b00 ,
@@ -498,7 +504,7 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =7797
+                    Left =7200
                     Top =30
                     Width =11160
                     Height =450
@@ -518,9 +524,9 @@ Begin Form
                         0x2900000000000000
                     End
 
-                    LayoutCachedLeft =7797
+                    LayoutCachedLeft =7200
                     LayoutCachedTop =30
-                    LayoutCachedWidth =18957
+                    LayoutCachedWidth =18360
                     LayoutCachedHeight =480
                     ConditionalFormat14 = Begin
                         0x01000100000001000000000000000100000000000000b8dcff00310000005b00 ,
@@ -532,7 +538,7 @@ Begin Form
                 End
                 Begin TextBox
                     Visible = NotDefault
-                    OverlapFlags =85
+                    OverlapFlags =93
                     IMESentenceMode =3
                     Width =100
                     Height =100
@@ -544,6 +550,18 @@ Begin Form
 
                     LayoutCachedWidth =100
                     LayoutCachedHeight =100
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Width =0
+                    Height =0
+                    ColumnWidth =1452
+                    TabIndex =7
+                    Name ="txtSessionID"
+                    ControlSource ="SessionID"
+
                 End
             End
         End
@@ -680,7 +698,7 @@ errHandler:
 End Sub
 Private Sub Form_Current()
 100   On Error GoTo errHandler
-110   SetTempVar "lngCurrentSessionID", Nz(Me.SessionID, 0)
+110   SetTempVar "lngCurrentSessionID", Nz(Me.txtSessionID, 0)
 120   Me.Refresh  ' .Refresh (not .Repaint) required to trigger CF re-evaluation
 Cleanup:
 130   Exit Sub

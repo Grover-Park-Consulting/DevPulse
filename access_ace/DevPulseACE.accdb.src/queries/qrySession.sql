@@ -7,30 +7,13 @@
   tblSession.ContextReset,
   tblSession.RevisionCycles,
   tblSession.Notes,
-  tblStep.ProjectID,
-  IIf(
-    TempVarsLong("lngProjectID")= 0,
-    0,
-    [tblStep].[ProjectID]
-  ) AS Expr1
+  tblStep.ProjectID
 FROM
-  tblSession
-  INNER JOIN tblStep ON tblSession.StepID = tblStep.StepID
+  tblStep
+  INNER JOIN tblSession ON tblStep.StepID = tblSession.StepID
 WHERE
   (
     (
-      (
-        IIf(
-          TempVarsLong("lngStepID")= 0,
-          0,
-          [tblSession].[StepID]
-        )
-      ) In (
-        0,
-        TempVarsLong("lngStepID")
-      )
-    )
-    AND (
       (
         IIf(
           TempVarsLong("lngProjectID")= 0,
@@ -40,6 +23,18 @@ WHERE
       ) In (
         0,
         TempVarsLong("lngProjectID")
+      )
+    )
+    AND (
+      (
+        IIf(
+          TempVarsLong("lngStepID")= 0,
+          0,
+          [tblSession].[StepID]
+        )
+      ) In (
+        0,
+        TempVarsLong("lngStepID")
       )
     )
   )
