@@ -28,6 +28,11 @@ Task 16 was building the Ribbon XML from the human developer's description. That
 
 DevPulse surfaced that capability over and over again. Sure, an AI makes mistakes, but it also knows how to recover from them.
 
+## Watch the Build
+
+- **[DevPulse Starter — Demo Walkthrough](https://youtu.be/vzmxFtlfVAE)** — A tour of the application: dashboard, data entry, reports, and the session metrics that make it useful.
+- **[PM Lessons Learned](https://youtu.be/dC-TJrjU7hA)** — Three ways the build data changed how the project was managed. For developers who want to understand what AI-assisted development actually looks like in practice.
+
 ## Two Backend Options
 
 DevPulse ships with two front ends, each paired with a different backend:

@@ -505,6 +505,31 @@ SET IDENTITY_INSERT tblSessionTool OFF;
 
 
 -- ============================================================
+-- Post-v1 additional records (Project 1 — DevPulse app)
+-- Tasks added after v1.0.0 release: 2026-05-24 through 2026-05-27
+-- ============================================================
+SET IDENTITY_INSERT tblStep ON;
+INSERT INTO tblStep (StepID,ProjectID,StepName,StepDescription,StepTypeID,StatusID,PredecessorStepID,StartDate,CompletionDate,Notes) VALUES (1041,1,'Post-v1 Query fixes','Fixed logic error in frmSession recordsource query surfaced during post-v1 testing; applied update to both distro editions in the repo.',6,4,NULL,'2026-05-24','2026-05-24',NULL);
+INSERT INTO tblStep (StepID,ProjectID,StepName,StepDescription,StepTypeID,StatusID,PredecessorStepID,StartDate,CompletionDate,Notes) VALUES (1043,1,'frmSession — Testing Bug','Discovered and corrected design flaw in two DateTime fields; required changes to frmSession form and the underlying table schema.',6,4,NULL,'2026-05-25','2026-05-25',NULL);
+INSERT INTO tblStep (StepID,ProjectID,StepName,StepDescription,StepTypeID,StatusID,PredecessorStepID,StartDate,CompletionDate,Notes) VALUES (1050,1,'Released Video and posted Forum announcements','Drafted and posted platform-specific DevPulse launch announcements across YouTube, LinkedIn, X/Twitter, Reddit, and Access community forums.',4,4,NULL,'2026-05-27','2026-05-27',NULL);
+SET IDENTITY_INSERT tblStep OFF;
+
+SET IDENTITY_INSERT tblSession ON;
+INSERT INTO tblSession (SessionID,StepID,SessionDate,SessionStartTime,SessionEndTime,ContextReset,RevisionCycles,Notes) VALUES (1038,1041,'2026-05-24','15:30:00','16:00:00',0,0,'Testing. Surfaced logic error in frmSession''s recordsource query. Gave Claude the fix to update the Distro versions in the repo.');
+INSERT INTO tblSession (SessionID,StepID,SessionDate,SessionStartTime,SessionEndTime,ContextReset,RevisionCycles,Notes) VALUES (1044,1043,'2026-05-25','05:00:00','06:00:00',0,0,'Testing. Surfaced a design flaw in two DateTime fields that required changes in frmSession as well as the table in the database.');
+INSERT INTO tblSession (SessionID,StepID,SessionDate,SessionStartTime,SessionEndTime,ContextReset,RevisionCycles,Notes) VALUES (1047,1050,'2026-05-27','07:30:00','09:00:00',0,0,'Requested announcements tailored to different venues: X, YouTube, LinkedIn, Forums, Reddit.');
+INSERT INTO tblSession (SessionID,StepID,SessionDate,SessionStartTime,SessionEndTime,ContextReset,RevisionCycles,Notes) VALUES (1048,1050,'2026-05-27','09:00:00','10:30:00',0,0,'Posted and edited announcements.');
+SET IDENTITY_INSERT tblSession OFF;
+
+SET IDENTITY_INSERT tblSessionTool ON;
+INSERT INTO tblSessionTool (SessionToolID,SessionID,ToolTypeID,UseCount) VALUES (1078,1044,1002,1);
+INSERT INTO tblSessionTool (SessionToolID,SessionID,ToolTypeID,UseCount) VALUES (1079,1044,1,1);
+INSERT INTO tblSessionTool (SessionToolID,SessionID,ToolTypeID,UseCount) VALUES (1080,1044,1003,1);
+INSERT INTO tblSessionTool (SessionToolID,SessionID,ToolTypeID,UseCount) VALUES (1081,1044,4,1);
+SET IDENTITY_INSERT tblSessionTool OFF;
+
+
+-- ============================================================
 -- Setup complete.
 -- Next step: connect the Access front end (DevPulseSSE.accdb)
 -- via ODBC using frmSetupConnection, or open DevPulseACE.accdb
