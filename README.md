@@ -32,6 +32,7 @@ DevPulse surfaced that capability over and over again. Sure, an AI makes mistake
 
 - **[DevPulse Starter — Demo Walkthrough](https://youtu.be/vzmxFtlfVAE)** — A tour of the application: dashboard, data entry, reports, and the session metrics that make it useful.
 - **[PM Lessons Learned](https://youtu.be/dC-TJrjU7hA)** — Three ways the build data changed how the project was managed. For developers who want to understand what AI-assisted development actually looks like in practice.
+- **[Tool Stack Walkthrough](https://youtu.be/bprKDNBuLPw?si=5oacKEcgg_2Ohx9A)** — The exact tools used to build DevPulse: Claude Code, Access Explorer MCP, VS Code, Git, GitHub, JoyfullService VCS, PowerShell, SSMS, and DevPulse itself. A 44-minute field report.
 
 ## Two Backend Options
 
